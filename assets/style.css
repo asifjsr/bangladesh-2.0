@@ -1,0 +1,55 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+/* sheared style */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F5F5F5;
+}
+/* start banner part */
+.banner{
+    width: 1280px;
+    height: 560px;
+    font-family: Fira Sans;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    margin: 120px 160px 80px 160px;
+}
+.banner-contain{
+    display: flex;
+    align-items: center;
+    gap: 64;
+    padding: 80px 100px 80px 100px;
+}
+
+.baner-sup-title{
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.banner-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.banner-btn{
+    padding: 17px 34px 17px 34px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
