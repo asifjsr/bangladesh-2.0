@@ -8,6 +8,23 @@
 body{
     background-color: #F5F5F5;
 }
+/* Nav degine */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 160px;
+}
+.nav-btn{
+    padding: 15px 30px 15px 30px;
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    border-color: rgb(0, 106, 80);
+}
+
 /* start banner part */
 .banner{
     width: 1280px;
@@ -41,6 +58,7 @@ body{
     line-height: 67px;
     letter-spacing: 0%;
     text-align: left;
+    margin-top: 16px;
 }
 .banner-btn{
     padding: 17px 34px 17px 34px;
@@ -50,6 +68,8 @@ body{
     border: none;
     font-size: 18px;
     font-weight: 600;
+
+    margin-top: 24px;
 }
 /* vision part */
 .vision{
