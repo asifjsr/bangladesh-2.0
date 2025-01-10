@@ -51,5 +51,127 @@ body{
     font-size: 18px;
     font-weight: 600;
 }
+/* vision part */
+.vision{
+    width: 1280px;
+    margin: 120px 160px 80px 160px;
+}
+.vision-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.vision-sub-title{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px;
+}
 
+.vision-card-content{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 32px;
+}
 
+.vision-card-01{
+    border-radius: 16px;
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+    width: 410.67px;
+height: 325px;
+}
+
+.vision-card-02{
+    border-radius: 16px;
+    background-color: rgb(198, 228, 214);
+    padding: 32px;
+    width: 410.67px;
+height: 325px;
+
+}
+
+.vision-card-03{
+    border-radius: 16px;
+    background-color: rgb(247, 235, 207);
+    padding: 32px;
+    width: 410.67px;
+height: 325px;
+
+}
+
+.vision-card-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px;
+}
+.vision-card-subtitle{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 12px;
+}
+
+.vision-card01-btn{
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    background-color: rgba(84, 144, 245);
+    border: none;
+    margin-top: 24px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.vision-card02-btn{
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    background-color: rgba(9, 161, 92);
+    border: none;
+    margin-top: 48px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.vision-card03-btn{
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 194, 57);
+    border: none;
+    margin-top: 24px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
