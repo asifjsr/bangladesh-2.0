@@ -23,6 +23,15 @@ body{
     line-height: 22px;
     cursor: pointer;
 }
+
+.margin-12-px{
+    margin-bottom: 12px;
+}
+
+.light-black{
+    color: rgba(14, 14, 14, 0.7);
+}
+
 /* Nav degine */
 nav{
     margin-top: 24px;
@@ -31,6 +40,7 @@ nav{
     justify-content: space-between;
     margin-left: 160px;
     margin-right: 160px;
+    
 }
 .nav-btn{
     padding: 15px 30px 15px 30px;
@@ -39,6 +49,8 @@ nav{
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
+    border-radius: 8px;
+    border: 2px solid;
     border-color: rgb(0, 106, 80);
     cursor: pointer;
 
@@ -51,7 +63,7 @@ nav{
     font-family: Fira Sans;
     border-radius: 24px;
     background: rgb(198, 228, 214);
-    margin: 120px 160px 80px 160px;
+    margin: 50px 160px 80px 160px;
 }
 .banner-contain{
     display: flex;
@@ -221,8 +233,9 @@ height: 325px;
 
 }
 
-/* degine donate section */
+/*  Donate section */
 .donate{
+    /* width: 1280px; */
     margin: 80px 160px 80px 160px;
 }
 
@@ -292,4 +305,55 @@ height: 325px;
     margin-top: 32px;
     text-align: center;
 
+}
+
+/* Recent News Section */
+.Recent-news{
+    /* width: 1280px; */
+    margin: 80px 160px 80px 160px;
+
+}
+
+.Recent-news-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.Recent-news-sub-title{
+    margin-top: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.news{
+    margin-top: 32px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 24px;
+    padding: 48px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.news-figure-pic{
+    border-radius: 24px;
+}
+
+.read-more-button{
+    margin-top: 32px;
+}
+.news-description{
+    margin-top: 12px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
