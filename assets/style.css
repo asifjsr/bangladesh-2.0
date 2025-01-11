@@ -24,6 +24,11 @@ body{
     cursor: pointer;
 }
 
+.primary-btn:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+
 .margin-12-px{
     margin-bottom: 12px;
 }
@@ -58,6 +63,12 @@ nav{
     cursor: pointer;
 
 }
+
+.nav-btn:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+
 
 /* start banner part */
 .banner{
@@ -105,6 +116,12 @@ nav{
 
     margin-top: 24px;
 }
+
+.banner-btn:hover{
+    transform: scale(1.3);
+    transition: 2s;
+}
+
 /* vision part */
 .vision{
     width: 1280px;
@@ -146,6 +163,8 @@ nav{
 height: 325px;
 }
 
+
+
 .vision-card-02{
     border-radius: 16px;
     background-color: rgb(198, 228, 214);
@@ -163,6 +182,29 @@ height: 325px;
     height: 325px;
 
 }
+
+
+/* hover section */
+
+
+.vision-card01-btn:hover{
+    transform: scale(1.3);
+    transition: 3s;
+}
+
+.vision-card02-btn:hover{
+    transform: scale(1.3);
+    transition: 3s;
+}
+
+
+.vision-card03-btn:hover{
+    transform: scale(1.3);
+    transition: 3s;
+}
+
+
+
 
 .vision-card-title{
     color: rgba(14, 14, 14, 0.8);
@@ -286,6 +328,10 @@ height: 325px;
     font-weight: 400;
     line-height: 24px;
 }
+.news-title{
+    color: rgba(14, 14, 14, 0.8);
+
+}
 
 /*  Donate section */
 .donate{
@@ -332,8 +378,15 @@ height: 325px;
     font-weight: 700;
     line-height: 48px;
     cursor: pointer;
+}
+
+.donate-amount-btn:hover{
+    background-color: rgba(0, 106, 80,0.5);
+    transform: scale(1.3);
+    transition: 2s;
 
 }
+
 .donate-amount-btn-selected{
     background: rgb(198, 228, 214);
 }
