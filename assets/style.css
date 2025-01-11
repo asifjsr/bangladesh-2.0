@@ -10,6 +10,11 @@ body{
     font-family: Fira Sans;
     
 }
+a{
+    text-decoration: none;
+    color: rgb(14, 14, 14);
+     ;
+}
 .primary-btn{
     border: 1px solid rgba(14, 14, 14, 0.1);
     border-radius: 8px;
@@ -385,7 +390,7 @@ height: 325px;
 .donate-amount-btn:hover{
     background-color: rgba(0, 106, 80,0.5);
     transform: scale(1.3);
-    transition: 2s;
+    transition: 0.2s;
 
 }
 
@@ -473,7 +478,7 @@ quote-title{
     text-align: center;
     width: 100%;
     height: 55px;
-    
+
     /* text-decoration */
     color: rgba(14, 14, 14, 0.3);
     font-family: Fira Sans;
