@@ -27,6 +27,9 @@ body{
 .margin-12-px{
     margin-bottom: 12px;
 }
+.margin-12-px-top{
+    margin-top: 12px;
+}
 
 .light-black{
     color: rgba(14, 14, 14, 0.7);
@@ -233,6 +236,57 @@ height: 325px;
 
 }
 
+/* Recent News Section */
+.Recent-news{
+    /* width: 1280px; */
+    margin: 80px 160px 80px 160px;
+
+}
+
+.Recent-news-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.Recent-news-sub-title{
+    margin-top: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.news{
+    margin-top: 32px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 24px;
+    padding: 48px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.news-figure-pic{
+    border-radius: 24px;
+}
+
+.read-more-button{
+    margin-top: 32px;
+}
+.news-description{
+    margin-top: 12px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
 /*  Donate section */
 .donate{
     /* width: 1280px; */
@@ -307,51 +361,24 @@ height: 325px;
 
 }
 
-/* Recent News Section */
-.Recent-news{
-    /* width: 1280px; */
+.quote{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
     margin: 80px 160px 80px 160px;
-
-}
-
-.Recent-news-title{
-    color: rgb(14, 14, 14);
+    
+    }
+.quote-content{
+    padding: 48px 24px 48px 24px;
+}    
+quote-title{
+    color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 48px;
-}
-
-.Recent-news-sub-title{
-    margin-top: 24px;
-    color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 600;
     line-height: 24px;
 }
 
-.news{
-    margin-top: 32px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 24px;
-    padding: 48px;
-    display: flex;
-    align-content: center;
-    justify-content: space-around;
-    gap: 24px;
-}
-
-.news-figure-pic{
-    border-radius: 24px;
-}
-
-.read-more-button{
-    margin-top: 32px;
-}
-.news-description{
-    margin-top: 12px;
-    color: rgba(14, 14, 14, 0.7);
+.quote-sub-title{
     font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
