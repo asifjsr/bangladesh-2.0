@@ -23,13 +23,14 @@ body{
     line-height: 22px;
     cursor: pointer;
 }
-cursor:pointer
 /* Nav degine */
 nav{
+    margin-top: 24px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 160px;
+    margin-left: 160px;
+    margin-right: 160px;
 }
 .nav-btn{
     padding: 15px 30px 15px 30px;
@@ -40,6 +41,7 @@ nav{
     line-height: 22px;
     border-color: rgb(0, 106, 80);
     cursor: pointer;
+
 }
 
 /* start banner part */
@@ -85,7 +87,7 @@ nav{
     border: none;
     font-size: 18px;
     font-weight: 600;
-    cursor: pointer;
+
     margin-top: 24px;
 }
 /* vision part */
@@ -182,6 +184,7 @@ height: 325px;
     letter-spacing: 0%;
     text-align: center;
     cursor: pointer;
+
 }
 
 .vision-card02-btn{
@@ -196,8 +199,9 @@ height: 325px;
     font-weight: 600;
     line-height: 19px;
     letter-spacing: 0%;
-    cursor: pointer;
     text-align: center;
+    cursor: pointer;
+
 }
 
 .vision-card03-btn{
@@ -212,8 +216,9 @@ height: 325px;
     font-weight: 600;
     line-height: 19px;
     letter-spacing: 0%;
-    cursor: pointer;
     text-align: center;
+    cursor: pointer;
+
 }
 
 /* degine donate section */
@@ -260,6 +265,7 @@ height: 325px;
     font-weight: 700;
     line-height: 48px;
     cursor: pointer;
+
 }
 .donate-amount-btn-selected{
     background: rgb(198, 228, 214);
@@ -285,7 +291,5 @@ height: 325px;
 .donate-now-button{
     margin-top: 32px;
     text-align: center;
-    cursor: pointer;
-
 
 }
