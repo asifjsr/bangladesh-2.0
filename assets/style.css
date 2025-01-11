@@ -422,15 +422,19 @@ height: 325px;
 }
 
 .quote{
+    margin: 80px 160px 80px 160px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    }
+
+.quote-content{
     background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
-    margin: 80px 160px 80px 160px;
-    
-    }
-.quote-content{
     padding: 48px 24px 48px 24px;
+    margin-left: 10px;
 }    
-quote-title{
+.quote-title{
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
     font-size: 20px;
