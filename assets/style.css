@@ -7,7 +7,23 @@
 }
 body{
     background-color: #F5F5F5;
+    font-family: Fira Sans;
+    
 }
+.primary-btn{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding: 17px 34px 17px 34px;
+    /* button-Text */
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    cursor: pointer;
+}
+cursor:pointer
 /* Nav degine */
 nav{
     display: flex;
@@ -23,6 +39,7 @@ nav{
     font-weight: 600;
     line-height: 22px;
     border-color: rgb(0, 106, 80);
+    cursor: pointer;
 }
 
 /* start banner part */
@@ -68,13 +85,13 @@ nav{
     border: none;
     font-size: 18px;
     font-weight: 600;
-
+    cursor: pointer;
     margin-top: 24px;
 }
 /* vision part */
 .vision{
     width: 1280px;
-    margin: 120px 160px 80px 160px;
+    margin: 80px 160px 80px 160px;
 }
 .vision-title{
     color: rgb(14, 14, 14);
@@ -126,7 +143,7 @@ height: 325px;
     background-color: rgb(247, 235, 207);
     padding: 32px;
     width: 410.67px;
-height: 325px;
+    height: 325px;
 
 }
 
@@ -164,6 +181,7 @@ height: 325px;
     line-height: 19px;
     letter-spacing: 0%;
     text-align: center;
+    cursor: pointer;
 }
 
 .vision-card02-btn{
@@ -178,6 +196,7 @@ height: 325px;
     font-weight: 600;
     line-height: 19px;
     letter-spacing: 0%;
+    cursor: pointer;
     text-align: center;
 }
 
@@ -193,5 +212,80 @@ height: 325px;
     font-weight: 600;
     line-height: 19px;
     letter-spacing: 0%;
+    cursor: pointer;
     text-align: center;
+}
+
+/* degine donate section */
+.donate{
+    margin: 80px 160px 80px 160px;
+}
+
+.donate-title-content{
+    text-align: center;
+
+}
+
+.donate-title{
+    font-size: 40px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-weight: 700;
+    line-height: 48px;
+}
+.donate-sub-title{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 24px;
+}
+
+.donate-amount{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 32px;
+}
+
+.donate-amount-btn{
+    display: block;
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    cursor: pointer;
+}
+.donate-amount-btn-selected{
+    background: rgb(198, 228, 214);
+}
+
+.donate-amount-type{
+    margin-top: 32px;
+    width: 100%;
+    text-align: center;
+    padding: 20px 40px 20px 40px;
+    /* text-decoration */
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    /* box-decoration */
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+}
+
+.donate-now-button{
+    margin-top: 32px;
+    text-align: center;
+    cursor: pointer;
+
+
 }
